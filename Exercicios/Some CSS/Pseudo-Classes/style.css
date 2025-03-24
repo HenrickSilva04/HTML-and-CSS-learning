@@ -1,0 +1,52 @@
+button:hover {
+    font-size: 1.0em;
+    background-color: brown;
+    border-radius: 25px;
+}
+
+button:active {
+    font-size: larger;
+    background-color: aqua;
+}
+
+a:link {
+    color: rgb(173, 224, 254);
+}
+
+a:hover {
+    color: rgb(93, 192, 249);
+    font: 1em;
+    color: rgb(173, 224, 254);
+}
+
+
+a:active {
+    color: blue;
+    font-size: larger;
+}
+
+a:visited {
+    color: yellow;
+}
+
+li:hover {
+    background-color: yellow;
+}
+
+li:not(:hover) {
+    background-color: grey;
+}
+
+li:nth-child(even) {
+    background-color: red;
+}
+
+#greeting p{
+    background-color: darkcyan;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}
